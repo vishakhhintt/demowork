@@ -1,0 +1,448 @@
+.inner-header{
+    box-shadow: 0px 1px 3px #c2c2c2;
+    background-color: #fff;
+}
+header.active{
+    box-shadow: 0px 1px 3px #c2c2c2;
+}
+.inner-banner{
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../images/page-banner01.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../images/page-banner01.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 40vh;
+    position: relative; 
+    margin-top: 5%;   
+}
+.inner-banner .container,
+.property-listing .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.inner-banner-text{
+    color: #fff;
+    text-transform: uppercase;
+}
+.property-listing{
+    padding: 50px 0px;
+    padding-bottom: 80px;
+}
+.property-listing .card{
+    margin-top: 30px;
+    border: none;
+}
+.search-section .card-title{
+    font-family: "Playfair Display",serif;
+    color: #707070;
+    letter-spacing: 0;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.search-section .card-body{
+    padding: 25px;
+}
+.search-section .form-group{
+    margin-bottom: 25px;
+}
+.price-search{
+    display: flex;
+    align-items: center;
+}
+.price-search p{
+    font-weight: 600;
+}
+.search-form input::placeholder{
+    font-size: 13px;
+}
+.h-250{
+    min-height: 260px;
+}
+.property-card img{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    min-height: 100%;
+}
+.property-card .listbx{
+    padding: 20px 20px 20px 5px;
+}
+.listbx h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.listbx .location{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.listbx img{
+    width: 28px;
+    height: auto;
+}
+.listbx span{
+    font-family: "Lato",sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.listbx .propert-content{
+    font-size: 12px;
+    font-family: "Lato",sans-serif;
+}
+.listbx .button{
+    display: flex;
+    float: right;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color:#fff;
+}
+.listbx .button:hover{
+    color:#fff;
+    background-color:#0069d9
+}
+.pricing{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.location img{
+    width: 10px !important;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+#latest-property-slide .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators li{
+    background-color:#afafaf;
+}
+.carousel-indicators .active{
+    background-color: #007bff;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+#latest-property-slide .head{
+    font-size: 18px;
+    padding-top: 15px;
+    margin-bottom: auto;
+}
+#latest-property-slide .location{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#latest-property-slide .facility{
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+#latest-property-slide .price{
+    font-size: 24px;
+    font-weight: 500;
+}
+#featured-property-slide .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+#featured-property-slide .head{
+    font-size: 18px;
+    padding-top: 15px;
+    margin-bottom: auto;
+}
+#featured-property-slide .location{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#featured-property-slide .facility{
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+#featured-property-slide .price{
+    font-size: 24px;
+    font-weight: 500;
+}
+#featured-property-slide  .d-block{
+    height: 180px;
+    overflow: hidden;
+}
+#latest-property-slide  .d-block{
+    height: 180px;
+    overflow: hidden;
+}
+
+.easyPaginateNav a {
+    padding: 5px 10px;
+    margin: 0px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Lato",sans-serif;
+    color: #dadada;
+}
+.easyPaginateNav a.current {
+    color: #00518E;
+}
+.easyPaginateNav{
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    right: 0;
+    text-align: center;    
+    margin-bottom: -30px;
+}
+.easyPaginateNav .first{
+    display: none;
+}
+.easyPaginateNav .last{
+    display: none;
+}
+.h300{
+    height: 300px;
+    overflow: hidden;
+}
+.h300 img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.property-card .det-listbx{
+    padding: 30px;
+}
+.det-listbx h4{
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.det-listbx .location{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.det-listbx> .location> img{
+    width: 12px;
+    height: auto;
+}
+.det-listbx img{
+    width: 28px;
+    height: auto;
+}
+.det-listbx span{
+    font-family: "Lato",sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.facility-list li{
+    margin-right: 40px;
+}
+#detail-carousel{
+    height: 100%;
+}
+.det-listbx .propert-content{
+    font-size: 14px;
+    font-family: "Lato",sans-serif;
+}
+.det-listbx button{
+    display: flex;
+    float: right;
+    margin-bottom: 5px;
+}
+.facility-head{
+    font-size: 20px;
+    font-family: "Lato",sans-serif;
+    font-weight: 600;
+}
+.facility-head span{
+    font-size: 20px;
+    font-family: "Lato",sans-serif;
+    font-weight: 200;
+}
+.det-head-sec{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.amenities li{
+    font-family: "Lato",sans-serif;
+    line-height: 17px !important;
+}
+.amenities li::before {
+    content: "\2022";
+    color: #00518E; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: 0em; 
+    margin-right: 10px;
+  }
+.input-group-text{
+    background: none;
+    border-right: none;
+}
+.interest-form{
+    width: 100%;
+}
+.interest-form .bl0{
+    border-left: none;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color:#ced4da;
+}
+.btn-send{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.interest-form img{
+    width: 15px;
+    height: auto;
+    object-fit: contain;
+}
+.sidebarlink,.sidebarlink:hover {
+    color:#000;
+}
+.rows{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+}
+@media only screen and (max-width: 767px) {
+    .rows{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: column-reverse;
+    }
+    .inner-banner{
+        margin-top: 15%;
+    }
+    .inner-banner-text{
+        font-size: 20px;
+    }
+    .property-listing{
+        padding: 30px 0px;
+    }
+    .property-card .listbx{
+        padding: 20px;
+    }
+    .property-card{
+        padding: 0;
+    }
+    .det-head-sec{
+        flex-direction: column;
+    }
+    .det-listbx .location{
+        margin-bottom: 5px;
+    }
+    .imgbx {
+        padding: 0px;
+    }
+    .easyPaginateNav{
+        margin-bottom: -40px;
+        text-align: center;
+        width: 100%;
+    }
+    .h300{
+        height: 220px;
+    }
+    .property-card .det-listbx{
+        padding: 15px;
+    }
+    .facility-list li{
+        margin-right: 30px;
+    }
+    .bathimg{
+        margin-left: 10px;
+    }
+    .det-listbx button{
+        margin-top: -15px;
+    }
+    #features{
+        display: none;
+    }
+    .row-reverse{
+        flex-direction: row-reverse!important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .search-section .card-body{
+        padding: 15px;
+    }
+    .search-section{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .property-listing .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .listbx h4{
+        font-size: 18px;
+    }
+    .search-section .card-title{
+        padding-top: 15px;
+        padding-bottom: 0;
+        font-size: 15px;
+    }
+    .listing-details li{
+        margin-right: 5px;
+    }
+    .listbx img{
+        width: 20px;
+    }
+    .pricing{
+        font-size: 24px;
+    }
+    .listbx .button{
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .property-card .listbx{
+        padding: 15px;
+    }
+    .imgbx {
+        padding-right: 0;
+    }
+    .easyPaginateNav {
+        width: 70%;
+    }
+    .listbx span{
+        font-size: 12px;
+    }
+    #latest-property-slide .d-block,
+    #featured-property-slide .d-block{
+        height: 150px;
+    }
+    #latest-property-slide .price,#featured-property-slide .price{
+        font-size: 22px;
+    }
+    #featured-property-slide .head, #latest-property-slide .head{
+        font-size: 16px;
+    }
+    .det-head-sec .pricing{
+        font-size:20px !important;
+    }
+    .det-listbx h4{
+        font-size:20px;
+    }
+    .property-card .det-listbx{
+        padding:20px ;
+    }
+    .amenities{
+        font-size: 11px;
+    }
+    .amenities li{
+        line-height: 25px;
+    }
+    .facility-head span{
+        float: left;
+    }
+    .tab-row{
+        margin-top: 35px !important;
+    }
+}

@@ -1,0 +1,46 @@
+.banner {
+	background:url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	&-text{
+		font-size: 58px;
+		color: $font-color;
+		font-weight: 100;
+		line-height: 60px;
+		text-transform: uppercase;
+		background-color: $white;
+		box-shadow: 0px 4px 7px $shadow;
+		@include media-breakpoint-up(lg) {
+			font-size: 80px;
+			line-height: 87px;
+			padding-top: 12%;
+			background-color: transparent;
+			box-shadow: none;
+		}
+		@include media-breakpoint-only(md){
+			position: absolute;
+			bottom: 35px;
+			padding: 20px;
+		}
+		@include media-breakpoint-down(sm) {
+			font-size: 32px;
+			line-height: 42px;
+			position: absolute;
+			bottom: 10px;
+			padding: 20px;
+		}
+		span {
+			display: block;
+			font-size: 28px;
+			@include media-breakpoint-up(lg) {
+				font-size: 42px;
+			}
+			@include media-breakpoint-down(sm) {
+				font-size: 20px;
+			}
+		}
+	}
+}

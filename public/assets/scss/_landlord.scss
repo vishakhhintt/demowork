@@ -1,0 +1,51 @@
+.landlord{
+	position: relative;
+	z-index: 10;
+		@include media-breakpoint-only(md){
+			margin-bottom: 30px;
+		}
+	.section-title {
+		text-transform: capitalize;
+		margin: 30px 0;
+		@include media-breakpoint-up(lg) {
+			margin: 50px 0;
+		}
+		@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+			font-size: 39px;
+		}
+	}
+	.container-fluid {
+		@include media-breakpoint-up(lg) {
+		  background: linear-gradient(
+		    to right, 
+		    transparent 0%, 
+		    transparent 45%, 
+		    $light-grey 35%, 
+		    $light-grey 100%
+		  );
+		}
+	}
+	.img-wrapper{
+		@include media-breakpoint-up(lg) {
+			padding: 40px 0;
+		}
+	}
+	&-right-content{
+		padding: 30px 0;
+		@include media-breakpoint-up(lg) {
+			padding: 70px 30px;
+		}
+		@include media-breakpoint-only(md){
+			padding: 0;
+		}
+		h3 {
+
+		}
+	}
+	@include media-breakpoint-up(lg) {
+		[class*=col-] {
+			padding: 0;
+		}
+	}
+}
+

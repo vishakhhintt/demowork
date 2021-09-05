@@ -1,0 +1,53 @@
+header {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	transition: background-color 0.4s ease-out;
+	nav {
+		&.navbar{
+			@include media-breakpoint-down(md) {
+				padding: 8px 0;
+			}
+		}
+		.logo{
+			@include media-breakpoint-down(sm) {
+				width: 150px;
+			}
+		} 
+		.navbar-collapse {
+			flex-grow: 0;
+		}
+		.navbar-nav{
+			@include media-breakpoint-down(md) {
+				padding-top: 20px;
+			}
+			.nav-link{
+				padding: 0 10px;
+				line-height: 16px;
+				@include media-breakpoint-down(md) {
+					padding: 10px 0;
+					text-align: right;
+				}
+			}
+			.nav-item:first-child {
+				@include media-breakpoint-up(lg) {
+					border-right: 1px solid $black;
+				}
+			}
+		}
+		.navbar-toggler:hover{
+			outline: 5px auto $light-black;
+		}
+	}
+	@include media-breakpoint-up(lg) {
+		.navbar-expand-lg {
+			justify-content: space-between;
+		}
+	}
+	&.fixed-top{
+		top: -1px;
+	}
+	&.active{
+		box-shadow: 0px 4px 7px $shadow;
+		background-color: $white;
+	}
+}
